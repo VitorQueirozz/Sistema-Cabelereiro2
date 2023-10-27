@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(190, 184, 216);
+    height: calc(100vh - 150px);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 75px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-cabelo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-cabelo div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-cabelo input {
+    width: 250px;
+    height: 45px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+
+.form-cabelo select {
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+
+.btn-marcar {
+    width: 250px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: green;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-deleta {
+    width: 50px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    background-color: red;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-update {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: green;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.dash-titulos {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+.dash-titulos td {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.dash-salvos {
+    display: flex;
+    gap: 30px;
+}
+
+.dash-salvos td {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 75px;
+}
